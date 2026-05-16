@@ -1,8 +1,6 @@
-# PersonaLens ChatGPT Prototype
+# PersonaLens
 
-A Chrome extension + local Node backend prototype that uses the ChatGPT API to simplify the **original webpage UI in-place**.
-
-Unlike the first overlay version, this version keeps the original page visible and functional. Images, graphics, layout, buttons, links, and widgets stay on the page. The AI only returns safe patch actions such as highlighting, dimming, improving readability, simplifying short labels, adding tooltips, and scrolling to the most relevant element.
+A Chrome extension + local Node backend prototype that uses the Gemini API to simplify the **original webpage UI in-place**.
 
 ## Project structure
 
