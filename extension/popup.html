@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>PersonaLens</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>PersonaLens</h1>
+        <p>Persona-based AI simplification for the current webpage.</p>
+      </header>
+
+      <label for="persona">Persona</label>
+      <textarea id="persona" rows="4">Elderly user with weak vision and low digital literacy. They get confused by dense pages and many buttons.</textarea>
+
+      <label for="backendUrl">Backend URL</label>
+      <input id="backendUrl" value="http://localhost:3000/simplify" />
+
+      <div class="row">
+        <button id="extractBtn" class="secondary">Preview extraction</button>
+        <button id="resetBtn" class="secondary">Reset</button>
+      </div>
+
+      <button id="simplifyBtn" class="primary">Simplify current page</button>
+
+      <section id="status" class="status">Ready.</section>
+      <pre id="debug" class="debug"></pre>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
