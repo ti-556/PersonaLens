@@ -4,6 +4,7 @@ A Chrome extension + local Node backend prototype that uses Gemini API to simpli
 
 <p align="center">
   <img src="figures/firstuidemo.gif" alt="Elderly Demo" width="500">
+  <img src="figures/uiworkflow.png" alt="UI Workflow" width="500">
 </p>
 
 
