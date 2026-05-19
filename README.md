@@ -1,6 +1,6 @@
 # Just4UI: PersonaLens
 
-A Chrome extension + local Node backend prototype that uses Gemini API to simplify the **original webpage UI in-place** based on an input user self-persona.
+A Chrome extension tha simplifies the **original webpage UI in-place** based on an input user self-persona.
 
 <p align="center">
   <img src="figures/firstuidemo.gif" alt="Elderly Demo" width="500">
